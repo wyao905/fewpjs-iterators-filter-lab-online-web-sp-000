@@ -10,3 +10,9 @@ function fuzzyMatch(drivers, str) {
     return driver[0].toUpperCase() === str[0].toUpperCase()
   })
 }
+
+function matchName(drivers, str) {
+  return drivers.filter(driver => {
+    return driver.name === str
+  })
+}
