@@ -4,3 +4,5 @@ function findMatching(drivers, str) {
     return driver.toUpperCase() === str.toUpperCase()
   })
 }
+
+function fuzzyMatch(drivers, str)
